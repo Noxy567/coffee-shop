@@ -82,7 +82,7 @@ p{
     
 }
 
-button{
+.top-signup{
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
@@ -98,6 +98,7 @@ button{
     display: flex;
     flex-direction: column;
     height: auto;
+    /* align-items: center; */
     
 }
 
@@ -167,14 +168,18 @@ button{
 
 .middle-middle{
     background-color: #e5e7eb;
-    height: 500px;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    /* align-self: center; */
 }
+
+
+
 
 .middle-text{
     color: #1f2937;
@@ -191,7 +196,63 @@ button{
 }
 
 .middle-bottom{
-    background-color: skyblue;
-    height: 500px;
+    background-color: e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.signup-container{
+    background-color: #3882f6;
+    width: 700px;
+    height: 125px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
+
+.text-side h2{
+    margin: 0;
+}
+
+
+
+
+.sign-up-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom-signup{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
